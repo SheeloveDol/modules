@@ -17,8 +17,10 @@
 
 .btn {
   border: 3px solid red;
+  margin: 1em;
 }
 
-.second {
+#hidden {
   display: none;
+  
 }
