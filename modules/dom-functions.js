@@ -1,6 +1,6 @@
 // Module for DOM functions
 
-export const toggleButton = element => {
+const toggleButton = element => {
   if (element.style.display === 'none') {
     element.style.display = 'block';
   } else {
@@ -10,4 +10,4 @@ export const toggleButton = element => {
 }
 
 // Syntax for exporting the individual functions you need from this module/file
-// export { toggleButton }
+export { toggleButton }

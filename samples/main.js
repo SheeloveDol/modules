@@ -6,4 +6,4 @@ const hiddenButton = document.getElementById('hidden');
 firstButton.addEventListener('click', () => {toggleButton(hiddenButton)});
 
 
-import { toggleButton } from "./modules/dom-functions";
+import { toggleButton } from "../modules/dom-functions";
